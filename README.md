@@ -27,20 +27,7 @@ Step 6:
 Print the predicted output.
 
 Program:
-# Developed by : ANTONY ABISHEK K
-# Register No : 212223240009
-import pandas as pd
-from sklearn import linear_model
-data= pd.read_csv("cars.csv")
-X=data[['Weight','Volume']]
-Y=data['CO2']
-regr=linear_model.LinearRegression()
-regr.fit(X,Y)
-print("Coefficient:",regr.coef_)
-print("Intercept:",regr.intercept_)
-predictCO2=regr.predict([[3300,1300]])
-print("prediction CO2 for the corresponding weight and volume",predictCO2)
-
+![image](https://github.com/Antonyabishek2004/Multivariate-Linear-Regression/assets/138849620/07d9fcf9-9639-423d-80e1-8202d8515a7c)
 
 ## Output:
 ![image](https://github.com/Antonyabishek2004/Multivariate-Linear-Regression/assets/138849620/44e339fa-8e64-4e5c-a083-40c5edc35b1d)
